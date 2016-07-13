@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title>Craftastic</title>
+    <meta name="description" content="">
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+    
+        <div class="navbar navbar-fixed-top">
+          
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Craftastic</a>
+            <!--end navbar-brand-->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Jwellery Making</a></li>
+                            <li><a href="#">Paper Quilling</a></li>
+                            <li><a href="#">Flower Arrangement</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Sewing</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Painting</a></li>
+                        </ul>
+                        <li><a href="#">Centers</a></li>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search "></span></button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>  Accounts <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><span class="glyphicon glyphicon-refresh"></span> Edit Profile</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+    </div>
+    
+        <!--end navbar-->
+    
+    <div class="container-fluid" id="carouselContainer">
+        <div class="Carousel-slide" id="myCarousel" data-ride="carousel">
+            <!--indicators-->
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+            </ol>
+            <!--end carousel-indicators-->
+            <!--wrappers-->
+            <div class="carousel-inner">
+                <div class="item active" id="slide1">
+                    <div class="carousel-caption">
+                        <h4>Painting</h4>
+                        <p>Painting is the practice of applying paint, pigment, color or other medium to a solid surface (support base). The medium is commonly applied to the base with a brush, but other implements, such as knives, sponges, and airbrushes, can be used.</p>
+                    </div>
+                    <!--end carousel-caption-->
+                </div>
+                <!--end item-->
+                <div class="item" id="slide2">
+                    <div class="carousel-caption">
+                        <h4>Jwellery Making</h4>
+                        <p>Jewelry design is the art or profession of designing and creating jewelry.Traditional hand-drawing and drafting methods are still utilized in designing jewelry, particularly at the conceptual stage</p>
+                    </div>
+                    <!--end carousel-caption-->
+                </div>
+                <!--end item-->
+                <div class="item" id="slide3">
+                    <div class="carousel-caption">
+                        <h4>Sewing</h4>
+                        <p>Sewing is the craft of fastening or attaching objects using stitches made with a needle and thread.Clothing technology has evolved to a complicated science weighed against the labor cost making positive and negative effects across the globe </p>
+                    </div>
+                    <!--end carousel-caption-->
+                </div>
+                <!--end item-->
+            </div>
+            <!--end of carousel-inner-->
+            <!--controls-->
+            <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+            <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+        </div>
+        <!--end myCarousel-->
+    </div>
+    <!--end container-fluid-->
+    <div class="container">
+        <div class="row" id="bigcallout">
+            <!--successAlert-->
+            <div class="well">
+                <div class="page-header">
+                    <h1>Art cannot be taught, it comes from thinking. But it can be improved by practice.</h1>
+                    <p><span style="color:red;font-size:30px" class="glyphicon glyphicon-heart"></span></p>
+                    <h4 class="lead">Projects we love in crafts</h4>
+                    <p>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click here to register</button>
+                    </p>
+                </div>
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">New Projects in crafts</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Successfully Registered.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end page-header-->
+            </div>
+            <!--end well-->
+        </div>
+        <!--end bigcallout-->
+    </div>
+    <!--end container-->
+    <div class="container">
+        <h1>Featured projects in crafts</h1>
+    </div>
+    <!--end container-->
+    <div class="container" id="projects">
+        <div class="col-sm-4">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Dory's seashell Garland</h3>
+                </div>
+                <img src="images/seashell.jpg" class="img-circle">
+                <p>This summer, add a garland of Finding Dory-inspired seashells to your little one’s bedroom with this simple and fun craft.</p>
+                <a href="#" class="btn btn-large btn-primary">Dory's seashell Garland</a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Lilo & Stitch Cross Stich</h3>
+                </div>
+                <img src="images/thread.jpg" class="img-circle">
+                <p>Print the pattern and create a set of two cross stitch hoops to display in your family room.Thread art on dress materials, table cloth,bed spread.</p>
+                <a href="#" class="btn btn-large btn-primary">Lilo & Stitch Cross Stitch</a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Summer Glow Jar</h3>
+                </div>
+                <img src="images/summer.jpg" class="img-circle">
+                <p>This summer, add a garland of Finding Dory-inspired seashells to your little one’s bedroom with this simple and fun craft.</p>
+                <a href="#" class="btn btn-large btn-primary">Dory's seashell Garland</a>
+            </div>
+        </div>
+    </div>
+    <!--end projects-->
+    <div class="container" id="moreinfo">
+        <div class="col-sm-8">
+            <ul class="nav nav-tabs" data-tabs="tabs">
+                <li class="active">
+                    <a href="#tab1" data-toggle="tab">Art and craft</a>
+                </li>
+                <li>
+                    <a href="#tab2" data-toggle="tab">Develop your hobbies !!</a>
+                </li>
+                <li>
+                    <a href="#tab3" data-toggle="tab">What we do ?</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane in active" id="tab1">
+                    <p>Arts and crafts describes a wide variety of activities involving making things with one's own hands. Arts and crafts is usually a hobby. Developing ones thought and creativity by providing latest trends in art and craft.Different types of art and craft are being cherish under this firm.Some crafts (art skills) have been practised for centuries, others are more recent inventions.</p>
+                </div>
+                <div class="tab-pane" id="tab1">
+                    <p>Some crafts (art skills) have been practised for centuries, others are more recent inventions.Developing ones thought and creativity by providing latest trends in art and craft.Different types of art and craft are being cherish under this firm. </p>
+                </div>
+                <!--tab-pane-->
+                <div class="tab-pane" id="tab2">
+                    <p>Developing ones thought and creativity by providing latest trends in art and craft.Different types of art and craft are being cherish under this firm.Some crafts (art skills) have been practised for centuries, others are more recent inventions. </p>
+                </div>
+                <!--tab-pane-->
+            </div>
+            <!--tab-content-->
+        </div>
+        <!--end col-sm-6-->
+        <div class="col-4">
+            <div class="col-12">
+                <h4><span class="glyphicon glyphicon-map-marker"></span> Locate Us</h4>
+                <p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7808.925749204908!2d75.3454852220024!3d11.87282296567474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba43d53d2ea291b%3A0x3aecf6a6bee3f808!2sPayyambalam+Beach!5e0!3m2!1sen!2sin!4v1468299887536" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--end moreinfo-->
+    <footer>
+        <div class="container-fluid footer-section" id="">
+            <div class="col-sm-4">
+                <p><a href="#">About us</a></p>
+                <p><a href="#">FAQ</a></p>
+                <p><a href="#">Craft Blog</a></p>
+                <p><a href="#">Press Area</a></p>
+                <p><a href="#">Carrers</a></p>
+            </div>
+            <div class="col-sm-4">
+                <div class="icon">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <ul>
+                    <li>
+                        <a href="#"><span class=""></span>Home</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class=""></span>Courses</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class=""></span>Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class=""></span>Centers</a>
+                    </li>
+                </ul>
+            </div>
+    </footer>
+    <!--end footer-->
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>
+    window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

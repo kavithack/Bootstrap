@@ -1,0 +1,248 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#projects{
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+#projects img{
+  margin: 0 0 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeligibility;
+    font-family: 'Lora', serif;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+    width: 200px;
+    font-family: 'Lora', serif;
+}
+
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#carouselContainer{
+       height: 500px;
+       margin-top: 90px;
+       padding-left: 0px;
+       padding-right: 0px;
+      }
+.Carousel-slide{
+ /*  margin-top: 20px; */
+}
+   #slide1 {
+   background:url("../images/craft_large_01.jpg")top center no-repeat;
+}
+
+#slide2 {
+   background:url("../images/craft_large_02.jpg")top center no-repeat;
+}
+
+#slide3 {
+   background:url("../images/craft_large_03.jpg")top center no-repeat;
+}
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.navbar{
+  background-color: #AF7AC5;
+}
+.navbar-brand{
+  font-size: 40px;
+}
+.well{
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+    background-color: white
+   }
+.well .p a{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+   }
+p{
+    color: #9B59B6;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+   }
+.page-header h1{
+    font-family: 'Lora', serif;
+    font-size: 40px;
+   }
+.col-12 h1{
+  font-family: 'Lora', serif;
+    font-size: 40px;
+}
+.panel-heading h3{
+    font-size: 22px;
+    font-family: 'Lora', serif;
+    color: #626567;
+   }
+h4{
+    font-family: 'Lora', serif;
+   }
+li a{
+  font-size: 20px;
+}
+
+.footer-section{
+	margin: 5px 0;
+	padding:2px;
+	background-color:#777;
+	}
+.footer-section p,h1,h4,a{
+		text-align:center;
+		color:#9B59B6;
+	}
+.footer-section p,li{
+		margin: 5px 0;
+		font-size:15px;
+    color: #777;
+		
+	}
+.icon{
+	 color: grey;
+	margin-top: 20px;
+  text-align: center;
+  font-size: 3em;  
+}
+a{
+  text-align:justify;
+  font-family: 'Lora', serif;
+  
+}
+.footer-section a{
+  color: white;
+}
+.panel-heading{
+  background-color: #AF7AC5;
+}
+.panel-title{
+  color: #5D6D7E;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-family: 'Lora', serif;
+}
+#moreinfo{
+  margin-top: 20px;
+}
+.alert{
+  margin-top: 20px;
+  display: none;
+}
+.tab-pane{
+  margin-top: 20px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+#sideimage {
+  overflow:hidden;
+}
+/* Portrait & landscape phone */
+
+@media (max-width: 768px) {
+    #myCarousel .item {
+    height: 200px;
+  width:100%;
+}
+  
+#slide1 {
+   background:url("../images/craft_small_01.jpg")top center no-repeat;
+}
+
+#slide2 {
+   background:url("../images/craft_small_02.jpg")top center no-repeat;
+}
+
+#slide3 {
+   background:url("../images/craft_small_03.jpg")top center no-repeat;
+}
+}
+
+/* Landscape phone to portrait tablet */
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #myCarousel .item {
+    height: 300px;
+  width:100%;
+}
+  
+#slide1 {
+   background:url("../images/craft_medium_01.jpg")top center no-repeat;
+}
+
+#slide2 {
+   background:url("../images/craft_medium_02.jpg")top center no-repeat;
+}
+
+#slide3 {
+   background:url("../images/craft_medium_03.jpg")top center no-repeat;
+}
+}
+/*  desktop */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #myCarousel .item {
+    height: 500px;
+  width:100%;
+}
+  
+#slide1 {
+   background:url("../images/craft_large_01.jpg")top center no-repeat;
+}
+
+#slide2 {
+   background:url("../images/craft_large_02.jpg")top center no-repeat;
+}
+
+#slide3 {
+   background:url("../images/craft_large_03.jpg")top center no-repeat;
+}
+
+}
+
+
+/*  desktop */
+
+@media (min-width: 1200px) {
+    #myCarousel .item {
+    height: 500px;
+  width:100%;
+}
+  
+#slide1 {
+   background:url("../images/craft_large_01.jpg")top center no-repeat;
+}
+
+#slide2 {
+   background:url("../images/craft_large_02.jpg")top center no-repeat;
+}
+
+#slide3 {
+   background:url("../images/craft_large_03.jpg")top center no-repeat;
+}
+
+}
+
+
+
+
